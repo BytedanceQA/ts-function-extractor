@@ -1,0 +1,671 @@
+name,comments,startLine,endLine
+getTextAfterTest,,10,12
+writeConfig,,18,25
+cleanStderr,,15,20
+cleanStderr,,21,24
+gitInit,,46,52
+gitCreateBranch,,54,56
+gitInit,,34,40
+runJestTwice,,19,27
+resolveFixture,,10,12
+proxyReadInitialOptions,"/**
+ * These e2e tests are running via a child process, because we're running in a VM and are not allowed to `import` directly
+ * It also represents a more real-world example of how to run.
+ */",22,36
+assertFailuresAndSnapshot,,11,15
+covered,,11,13
+uncovered,,15,17
+covered,,11,13
+uncovered,,15,17
+difference,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */,/* eslint-disable local/ban-types-eventually */",9,16
+double,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,9
+runJest,"// return the result of the spawned process:,//  [ 'status', 'signal', 'output', 'pid', 'stdout', 'stderr',,//    'envPairs', 'options', 'args', 'file' ]",35,51
+spawnJest,,53,58
+spawnJest,,59,64
+spawnJest,// Spawns Jest and returns either a Promise (if spawnAsync is true) or the completed child process,67,111
+normalizeStreamString,,119,127
+normalizeStdoutAndStderrOnResult,,129,137
+getConfig,// return type matches output of logDebugMessages,266,294
+error,,12,14
+testRunner,,11,36
+sum,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,9
+isLocalhost,"// Copyright (c) Meta Platforms, Inc. and affiliates.",2,4
+assertLoadedBabelConfig,,29,43
+addIstanbulInstrumentation,,45,69
+getCacheKeyFromConfig,,71,103
+loadBabelConfig,,105,115
+loadBabelConfigAsync,,117,127
+loadBabelOptions,,129,138
+loadBabelOptionsAsync,,140,149
+mergeBabelTransformOptions,,173,200
+visitBlock,,314,359
+visitCallExpr,,330,343
+visitVariableDeclarator,,345,358
+jestHoist,/* eslint-disable sort-keys */,362,410
+runCLI,,31,47
+runCreate,,49,163
+diffSequence,"// Compare items in two sequences to find a longest common subsequence.,// Given lengths of sequences and input function to compare items at indexes,,// return by output function the number of adjacent items and starting indexes,// of each common subsequence.",781,871
+$someFunc2,,72,72
+$someAsyncFunc,,80,80
+$someGeneratorFunc,,88,88
+$someFuncWithFakeToString,,96,96
+Foo,,234,234
+createVolume,,35,37
+isVolume,,39,41
+toIterator,,59,63
+toIterator,,73,77
+isToHaveNth,,199,203
+isToHaveNth,,1012,1016
+isToHaveLast,,1018,1022
+fnNameFor,,26,35
+getPrototype,,43,53
+hasProperty,,55,68
+assertions,,429,436
+hasAssertions,,437,445
+createMessageAndCauseMessage,,469,477
+createMessageAndCause,,479,485
+messageAndCause,,487,489
+testErrorFromDifferentContext,,17,36
+isObjectLiteral,,15,17
+isImmutableUnorderedKeyed,,19,26
+isImmutableUnorderedSet,,28,35
+isImmutableList,,37,39
+isImmutableOrderedKeyed,,41,48
+isImmutableOrderedSet,,50,57
+isImmutableRecord,,59,61
+isAsymmetric,,39,41
+asymmetricMatch,,43,58
+eq,"// Equality function lovingly adapted from isEqual in,//   [Underscore](http://underscorejs.org)",62,206
+keys,,208,221
+hasKey,,223,225
+isA,,227,229
+isDomNode,,231,239
+emptyObject,,508,510
+assertionErrorMessage,,127,188
+isAssertionError,,190,199
+buildHintString,,201,203
+collectConcurrentTests,,153,173
+startTestsConcurrently,,175,196
+shuffleArray,"// Fisher-Yates shuffle,// This is performed in-place",21,38
+takesDoneCallback,,29,31
+isGeneratorFunction,,33,37
+checkIsError,,190,192
+check,,11,92
+run,,19,41
+buildArgv,,43,78
+formatDeprecation,,10,17
+createReporterError,"/**
+ * Reporter Validation Error is thrown if the given arguments
+ * within the reporter are not valid.
+ *
+ * This is a highly specific reporter error and in the future will be
+ * merged with jest-validate. Till then, we can make use of it. It works
+ * and that's what counts most at this time.
+ */",24,35
+createArrayReporterError,,37,58
+validateReporters,,60,72
+validateArrayReporter,,74,98
+joinForPattern,"// Windows uses backslashes for path separators, which need to be escaped in,// regular expressions. This little helper function helps us generate the,// expected strings for checking path patterns.",50,52
+testPathArray,,234,270
+matchErrorSnapshot,,1802,1814
+getNumCpus,,14,18
+getMaxWorkers,,20,41
+readConfig,,33,74
+readInitialOptions,"/**
+ * Reads the jest config, without validating them or filling it out with defaults.
+ * @param config The path to the file or serialized config.
+ * @param param1 Additional options
+ * @returns The raw initial config (not validated)
+ */",281,334
+readConfigs,"// Possible scenarios:,//  1. jest --config config.json,//  2. jest --projects p1 p2,//  3. jest --projects p1 p2 --config config.json,//  4. jest --projects p1,//  5. jest,//,// If no projects are specified, process.cwd() will be used as the default,// (and only) project.",345,436
+verifyDirectoryExists,,65,96
+printConfig,,424,428
+validateExtensionsToTreatAsEsm,,430,479
+normalize,,481,1178
+readConfigFileAndSetRootDir,"// Read the configuration and set its `rootDir`,// 1. If it's a `package.json` file, we look into its ""jest"" property,// 2. If it's a `jest.config.ts` file, we use `ts-node` to transpile & require it,// 3. For any other file, we just require it. If we receive an 'ERR_REQUIRE_ESM',//    from node, perform a dynamic import instead.",26,83
+getRegisteredCompiler,,108,112
+registerTsNode,,114,136
+resolveConfigPath,,24,64
+extraIfPackageJson,,162,168
+setFromArgv,,12,62
+stringToBytes,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,10
+stringToBytes,,11,11
+stringToBytes,,12,15
+stringToBytes,"/**
+ * Converts a string representing an amount of memory to bytes.
+ *
+ * @param input The value to convert to bytes.
+ * @param percentageReference The reference value to use when a '%' value is supplied.
+ */",23,86
+getConsoleOutput,,16,60
+describeKey,,17,19
+normalizePosix,,57,59
+createTestScheduler,,58,67
+createGlobalConfig,,18,24
+runCLI,,37,140
+stackIsFromUser,,20,40
+runGC,,49,62
+collectHandles,"// Inspired by https://github.com/mafintosh/why-is-node-running/blob/master/index.js,// Extracted as we want to format the result ourselves",66,167
+formatHandleErrors,,169,213
+getChangedFilesPromise,,15,40
+getConfigsOfProjectsToRun,,10,22
+createProjectFilter,,26,45
+test,,40,42
+getNoTestFound,,12,60
+getNoTestFoundFailed,,11,25
+getNoTestFoundPassWithNoTests,,9,11
+getNoTestFoundRelatedToChangedFiles,,11,30
+getNoTestFoundVerbose,,12,74
+getNoTestsFoundMessage,,15,43
+getProjectDisplayName,,9,13
+getProjectNamesMissingWarning,,11,39
+getSelectProjectsMessage,,11,22
+getNoSelectionWarning,,24,45
+getProjectsRunningMessage,,47,60
+getProjectNameListElement,,62,68
+createContext,,14,24
+handleDeprecationWarnings,,11,42
+isValidPath,,10,18
+logDebugMessages,"// if the output here changes, update `getConfig` in e2e/runJest.ts",12,26
+updateGlobalConfig,,15,109
+runGlobalHook,,13,83
+runJest,,139,338
+shouldRunInBand,,12,55
+getVersion,,10,12
+watch,,90,469
+getGlobalCacheKey,,44,61
+getCacheKeyFunction,,63,84
+createCacheKey,"/**
+ * Returns a function that can be used to generate cache keys based on source code of provided files and provided values.
+ *
+ * @param files - Array of absolute paths to files whose code should be accounted for when generating cache key
+ * @param values - Array of string values that should be accounted for when generating cache key
+ * @param length - Length of the resulting key. The default is `32`, or `16` on Windows.
+ * @returns A function that can be used to generate cache keys.
+ */",94,100
+diff_cleanupSemanticScore_,"/**
+   * Given two strings, compute a score representing whether the internal
+   * boundary falls on logical boundaries.
+   * Scores range from 6 (best) to 0 (worst).
+   * Closure, but does not reference any external variables.
+   * @param {string} one First string.
+   * @param {string} two Second string.
+   * @return {number} The score.
+   * @private
+   */",304,349
+diff,"// Generate a string that will highlight the difference between two values,// with green and red. (similar to how github does code diffing),// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types",61,109
+comparePrimitive,,111,121
+sortMap,,123,125
+sortSet,,127,129
+compareObjects,,131,162
+getFormatOptions,,164,174
+getObjectsDifference,,176,200
+extract,,23,26
+strip,,28,32
+parse,,34,36
+parseWithComments,,38,82
+print,,84,127
+printKeyValues,,129,134
+bind,,31,83
+array,,22,39
+getPath,/* eslint import/export: 0*/,35,42
+getPath,,43,49
+getPath,,50,55
+getPath,,56,60
+getPath,,61,64
+getPath,,65,68
+getPath,,69,78
+template,,16,27
+isString,,28,30
+isString,,58,60
+createJestExpect,,28,39
+run,,636,641
+getType,"// get the type of a value with handling the edge cases like `typeof []`,// and `typeof null`",25,60
+getPlatformMessage,,243,248
+getTypeMessage,,250,258
+hasNativeFindSupport,,23,56
+find,,58,130
+search,,68,123
+findNative,,132,192
+nodeCrawl,,194,240
+watchmanError,,58,63
+capabilityCheck,"/**
+ * Wrap watchman capabilityCheck method as a promise.
+ *
+ * @param client watchman client
+ * @param caps capabilities to verify
+ * @returns a promise resolving to a list of verified capabilities
+ */",72,89
+watchmanCrawl,,91,347
+getWatchmanRoots,,141,172
+queryWatchmanForDirs,,174,240
+copy,,1142,1144
+copyMap,,1146,1148
+createRegExp,,18,20
+alternatives,,22,24
+functionCallStart,,26,35
+relative,// rootDir and filename must be absolute paths (resolved),10,14
+resolve,"// rootDir must be an absolute path and relativeFilename must be simple,// (e.g.: foo/bar or ../foo/bar, but never ./foo or foo/../bar)",20,24
+getPlatformExtension,// Extract platform extension: index.ios.js -> ios,10,26
+isWatchmanInstalled,,10,17
+sha1hex,,26,28
+worker,,30,106
+getSha1,,108,119
+assertionErrorMessage,,90,146
+buildHintString,,148,150
+each,,10,38
+installErrorOnPrivate,,40,75
+set,,60,65
+throwAtFunction,,77,82
+messageFormatter,,10,33
+stackFormatter,,35,59
+expectationResultFactory,,70,96
+jasmine2,,27,206
+wrapIt,,53,72
+isError,,9,25
+jasmineEnv,,52,712
+findFocusedAncestor,,477,486
+unfocusAncestor,,488,498
+specResultCallback,,538,542
+specStarted,,544,548
+validateAfterAllExceptions,,78,82
+storeSuite,,113,116
+dispatch,,81,91
+complete,,208,215
+isAfterAll,,220,222
+isFailure,,224,226
+createSpy,,40,77
+isSpy,,41,52
+promisifyLifeCycleFunction,,28,100
+promisifyIt,"// Similar to promisifyLifeCycleFunction but throws an error,// when the return value is neither a Promise nor `undefined`",104,190
+makeConcurrent,,192,252
+jasmineAsyncInstall,,254,279
+jestExpectAdapter,,13,43
+pTimeout,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */,// A specialized version of `p-timeout` that does not touch globals.,// It does not throw on timeout.",9,29
+queueRunner,,33,98
+setupJestGlobals,,92,120
+getNodeWithoutChildrenHandler,,30,34
+hasNoEnabledTest,,36,42
+treeProcessor,,44,87
+isEnabled,,48,50
+getNodeHandler,,52,57
+getNodeWithChildrenHandler,,59,70
+wrapChildren,,72,83
+Evil,,69,69
+toJSON,,75,77
+deepCyclicCopyReplaceable,,40,59
+deepCyclicCopyObject,,61,118
+deepCyclicCopyArray,,120,134
+deepCyclicCopyMap,,136,149
+getSerializableProperties,,151,170
+printWithType,,142,154
+replaceMatchedToAsymmetricMatcher,,413,425
+_replaceMatchedToAsymmetricMatcher,,427,477
+isAsymmetricMatcher,,483,486
+buildErrorWithCause,,92,99
+checkForCommonEnvironmentErrors,,97,109
+warnAboutWrongTestEnvironment,,111,119
+getStackTraceLines,,312,318
+getTopFrame,,320,337
+formatStackTrace,,339,381
+isErrorOrStackWithCause,,392,402
+formatErrorStack,,404,436
+failureDetailsToErrorOrStack,,438,457
+someFunction,,74,76
+someAsyncFunction,,91,93
+testFunction1,,55,57
+testFunction,,59,61
+x,,27,27
+functionFooMock,,89,89
+asyncFunctionFooMock,,96,96
+foo,,126,126
+getMockFnWithOriginalName,,134,139
+mockConstructor,,150,150
+exampleDispatch,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ *
+ * @jest-environment jsdom
+ */,/// <reference lib=""dom"" />,/* eslint-env browser*/",13,15
+matchArity,,300,413
+getObjectType,,415,417
+getType,,419,454
+isReadonlyProp,,456,483
+withImplementation,,806,806
+withImplementation,,807,810
+withImplementation,,811,834
+summarize,,11,38
+PhabricatorProcessor,,40,44
+run,,19,28
+run,,27,150
+check,,225,255
+combineCoverage,,332,350
+worker,,43,58
+loadNotifier,,157,169
+formatTestPath,,13,19
+generateEmptyCoverage,,26,92
+getResultHeader,,28,59
+getSnapshotStatus,,18,73
+getSnapshotSummary,,24,137
+getValuesCurrentTestCases,,14,51
+renderTime,,53,79
+getSummary,,81,197
+getWatermarks,,10,35
+printDisplayName,,10,20
+relativePath,,10,24
+trimAndFormatPath,,13,50
+wrapAnsiString,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */,// word-wrap a string that contains ANSI escape sequences.,// ANSI escape sequences do not add to the string length.",9,71
+customSyncResolver,// ResolverOptions,47,49
+customAsyncResolver,,52,57
+readPackageSync,"/*
+ * helper functions
+ */",126,128
+getPathInModule,,130,234
+createResolveOptions,,236,243
+clearFsCache,,12,16
+statSyncCached,,24,51
+realpathCached,,54,71
+readPackageCached,,74,86
+findClosestPackageJson,"// adapted from,// https://github.com/lukeed/escalade/blob/2477005062cdbd8407afc90d3f48f4930354252b/src/sync.js,// to use cached `fs` calls",91,113
+isFile,"/*
+ * helper functions
+ */",118,120
+isDirectory,,122,124
+realpathSync,,126,128
+isBuiltinModule,,11,13
+nodeModulesPaths,,17,73
+findGlobalPaths,,75,86
+loadResolver,,863,890
+clearCachedLookups,,18,22
+cachedShouldLoadAsEsm,,24,40
+shouldLoadAsEsm,// this is a bad version of what https://github.com/nodejs/modules/issues/393 would provide,43,71
+cachedPkgCheck,,73,93
+freezeConsole,,37,66
+runTestInternal,"// Keeping the core of ""runTest"" as a separate function (as ""runTestInternal""),// is key to be able to detect memory leaks. Since all variables are local to,// the function, when ""runTestInternal"" finishes its execution, they can all be,// freed, UNLESS something else is leaking them (and that's why we can detect,// the leak!).,//,// If we had all the code in a single function, we should manually nullify all,// references to verify if there is a leak, which is not maintainable and error,// prone. That's why ""runTestInternal"" CANNOT be inlined inside ""runTest"".",77,382
+runTest,,384,412
+setup,,72,85
+worker,,91,115
+evaluateSyntheticModule,,2572,2580
+saveInlineSnapshots,,33,100
+createSnapshotResolver,,49,56
+createDefaultSnapshotResolver,,58,79
+createCustomSnapshotResolver,,81,111
+mustImplement,,113,117
+verifyConsistentTransformations,,119,131
+stripAddedIndentation,,71,111
+isObject,,24,26
+getInferredParser,,12,16
+getPosition,,21,30
+getCallsite,,51,69
+formatTestResults,,70,80
+waitForPromiseWithCleanup,,66,75
+isTransformerFactory,// type predicate,78,82
+createTranspilingRequire,// TODO: do we need to define the generics twice?,848,879
+writeCodeCacheFile,"/**
+ * This is like `writeCacheFile` but with an additional sanity checksum. We
+ * cannot use the same technique for source maps because we expose source map
+ * cache file paths directly to callsites, with the expectation they can read
+ * it right away. This is not a great system, because source map cache file
+ * could get corrupted, out-of-sync, etc.
+ */",904,907
+readCodeCacheFile,"/**
+ * Read counterpart of `writeCodeCacheFile`. We verify that the content of the
+ * file matches the checksum, in case some kind of corruption happened. This
+ * could happen if an older version of `jest-runtime` writes non-atomically to
+ * the same cache, for example.
+ */",915,926
+assertSyncTransformer,,1028,1037
+createScriptTransformer,,1041,1050
+getTransformOptions,,2076,2084
+getCoverageOptions,,2086,2100
+mockInvariant,,2102,2106
+handlePotentialSyntaxError,,15,31
+enhanceUnexpectedTokenMessage,,33,69
+shouldInstrument,,32,123
+someFunction,,306,308
+requireCreateProcessObject,,11,17
+DTRACE_NET_SERVER_CONNECTION,,10,10
+getGlobal,,18,20
+asyncFn,,32,32
+clearLine,,9,13
+convertDescriptorToString,,9,30
+createDirectory,,9,17
+createProcessEnv,"// The ""process.env"" object has a bunch of particularities: first, it does not,// directly extend from Object; second, it converts any assigned value to a,// string; and third, it is case-insensitive in Windows. We use a proxy here to,// mimic it (see https://nodejs.org/api/process.html#process_process_env).",19,80
+deletePropertyWin32,,23,41
+deleteProperty,,43,48
+getProperty,,50,52
+getPropertyWin32,,54,60
+createProcessObject,,82,120
+deepCyclicCopy,,14,29
+deepCyclicCopyObject,,31,63
+deepCyclicCopyArray,,65,86
+formatTime,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,21
+globsToMatcher,"/**
+ * Converts a list of globs into a function that matches a path against the
+ * globs.
+ *
+ * Every time picomatch is called, it will parse the glob strings and turn
+ * them into regexp instances. Instead of calling picomatch repeatedly with
+ * the same globs, we can use this function which will build the picomatch
+ * matchers ahead of time and then have an optimized path for determining
+ * whether an individual path matches.
+ *
+ * This function is intended to match the behavior of `micromatch()`.
+ *
+ * @example
+ * const isMatch = globsToMatcher(['*.js', '!*.test.js']);
+ * isMatch('pizza.js'); // true
+ * isMatch('pizza.test.js'); // false
+ */",36,94
+installCommonGlobals,,14,65
+interopRequireDefault,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */,// copied from https://github.com/babel/babel/blob/56044c7851d583d498f919e9546caddf8f80a72f/packages/babel-helpers/src/helpers.js#L558-L562,// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types",9,11
+invariant,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,14
+checkIsInteractive,,9,24
+isNonNullable,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,9
+isPromise,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,15
+pluralize,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,13
+print,,12,16
+remove,,18,22
+replacePathSepForGlob,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,9
+requireOrImportModule,,11,59
+setGlobal,,9,16
+tryRealpath,,9,19
+validationConditionSingle,,11,21
+getValues,,23,32
+validationCondition,,34,39
+multipleValidOptions,,41,49
+formatExamples,,39,49
+validateCLIOptions,,75,124
+colorize,,9,19
+formatTestNameByPattern,,13,60
+printPatternCaret,,11,20
+printRestoredPatternCaret,,22,33
+scroll,,9,32
+runTest,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,7
+runTestAsync,,8,8
+doSomething,,10,10
+doSomethingAsync,,11,11
+getResult,,13,15
+end,// reserved keys should be excluded from returned type,20,20
+getStderr,,21,23
+getStdout,,24,26
+setup,,27,27
+teardown,,28,28
+workerReplyStart,,27,31
+workerReplyEnd,,33,35
+workerReply,,37,40
+workerReplyCustomMessage,,42,44
+createQueueChildMessage,,86,95
+createQueueChildMessage,,125,134
+replySuccess,,23,25
+assertCallsToChild,,27,42
+replySuccess,,15,17
+assertCallsToChild,,19,34
+getExposedMethods,,39,59
+getNumberOfCpus,,61,65
+closeWorkerAfter,,68,78
+waitForChange,,98,119
+messageParent,,10,21
+reportSuccess,,94,100
+reportClientError,,102,104
+reportInitializeError,,106,108
+reportMemoryUsage,,110,121
+reportError,,123,139
+end,,141,151
+exitProcess,,153,156
+execMethod,,158,182
+execHelper,,169,171
+execFunction,,184,206
+reportMemoryUsage,,96,107
+reportSuccess,,109,122
+reportClientError,,124,126
+reportInitializeError,,128,130
+reportError,,132,148
+end,,150,160
+exitProcess,,162,165
+execMethod,,167,191
+execHelper,,178,180
+execFunction,,193,215
+fnNameFor,,13,20
+returnArguments,,875,877
+returnIterator,,965,977
+returnArguments,,11,13
+MyObject,,17,20
+f,,126,128
+printIteratorEntries,"/**
+ * Return entries (for example, of a map)
+ * with spacing, indentation, and comma
+ * without surrounding punctuation (for example, braces)
+ */",34,93
+printIteratorValues,"/**
+ * Return values (for example, of a set)
+ * with spacing, indentation, and comma
+ * without surrounding punctuation (braces or brackets)
+ */",100,140
+printListItems,"/**
+ * Return items (for example, of an array)
+ * with spacing, indentation, and comma
+ * without surrounding punctuation (for example, brackets)
+ **/",147,194
+printObjectProperties,"/**
+ * Return properties of an object
+ * with spacing, indentation, and comma
+ * without surrounding punctuation (for example, braces)
+ */",201,235
+isToStringedArrayType,,78,93
+printNumber,,95,97
+printBigInt,,99,101
+printFunction,,103,108
+printSymbol,,110,112
+printError,,114,116
+printBasicValue,"/**
+ * The first port of call for printing an object, handles most of the
+ * data-types in JS.
+ */",122,195
+printComplexValue,"/**
+ * Handles more complex objects ( such as objects with circular references.
+ * maps and sets etc )
+ */",201,296
+isNewPlugin,,298,300
+printPlugin,,302,341
+findPlugin,,343,355
+printer,,357,388
+validateOptions,,421,445
+createIndent,,505,507
+format,"/**
+ * Returns a presentation string of your `val` object
+ * @param val any potential JavaScript object
+ * @param options Custom settings
+ */",514,536
+nodeIsText,,53,55
+nodeIsComment,,57,59
+nodeIsFragment,,61,63
+getRecordEntries,"// Record has an entries method because it is a collection in immutable v3.,// Return an iterator for Immutable Record from version v3 or v4.",48,59
+escapeHTML,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,9
+isJestJasmineRun,,12,14
+skipSuiteOnJasmine,,16,22
+skipSuiteOnJestCircus,,24,30
+onNodeVersions,,32,46
+normalizeIcons,"/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */",7,16
